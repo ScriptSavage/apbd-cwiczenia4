@@ -9,4 +9,8 @@
     <ProjectReference Include="..\LegacyApp\LegacyApp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
 </Project>
